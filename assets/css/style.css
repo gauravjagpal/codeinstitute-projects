@@ -9,7 +9,53 @@
 }
 
 
-/* general styling*/ 
+/* general styling*/
+
+header {
+    --padding: 10px 0;
+    background: var(--background-color1);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.topnav {
+    display: none;
+  }
+
+.navbar {
+    display: flex;
+    top: 0;
+    right: 0;
+    color: white;
+    justify-content: right
+}
+
+.navbar a{
+    list-style: none;
+    padding: 0 10px;
+    margin: 0;  
+  }
+  
+  .navlist {
+    color:white;
+    text-decoration: none;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  #home {
+    color:yellow;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .navbar a:hover {
+      background: rgb(29, 29, 29);
+      font-weight: bold;
+      cursor:pointer
+  }
 
 body {
     min-height: 100vh;
