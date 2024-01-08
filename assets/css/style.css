@@ -113,6 +113,10 @@ main {
     padding: 10px 0;
   }
 
+  .intro {
+    background-image: url(../images/stone-background.jpeg);
+  }
+
   #bio {
     padding: 20px 50px;
     font-family: Arial, Helvetica, sans-serif;
