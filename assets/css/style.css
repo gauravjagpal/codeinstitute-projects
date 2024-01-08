@@ -103,7 +103,7 @@ main {
     flex: 1 0 auto;
 }
 
-
+/*punchline styling*/
 .punchline {
     background-color: var(--background-color2);
     font-style: bold;
@@ -112,6 +112,8 @@ main {
     text-align: center;
     padding: 10px 0;
   }
+
+/* Styling for the first paragraph*/
 
   .intro {
     background-image: url(../images/stone-background.jpeg);
@@ -127,9 +129,55 @@ main {
     margin: auto;
   }
   
-  #smoothie {
+  #smoothie, #vagus-nerve {
     width:100%;
     object-fit: cover;
+  }
+
+/* Beginning styling for the three steps section*/
+
+  .threesteps {
+    background-color: var(--background-color3);
+    text-align: center;
+    padding: 50px;
+  }
+
+  .step1div {
+    width: 113px;
+    height: 113px;
+    margin: auto;
+  }
+  
+  .step1img {
+    position: relative;
+    left: -36px;
+    top: -36px;
+  }
+  
+  .process {
+    position: relative;
+    z-index: 1;
+  }
+  
+  #steps {
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: center;
+    display: inline;
+  }
+
+  .coaching {
+    background-color: var(--button-color1);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0.75rem 5rem;
+    border-radius: 20px;
   }
 
 
@@ -208,3 +256,17 @@ main {
   
   }
   /* ----------------------------MOBILE HAMBURER MENU END---------------------------- */
+
+  @media (max-width: 926px)  {
+    header {
+      padding: 0;
+    }
+    
+    #top-padding {
+      padding-top: 50px;
+    }
+    
+    p{
+      font-size: var(--phone-text);
+    }
+  }  
