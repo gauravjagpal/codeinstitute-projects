@@ -181,6 +181,11 @@ main {
   }
 
 
+  #fruit {
+    overflow: hidden;
+    padding: 0;
+  }
+
 
 @media (max-width: 650px) and (min-width: 200px)  {
     #slogan {
