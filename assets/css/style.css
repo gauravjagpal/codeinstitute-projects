@@ -113,11 +113,38 @@ main {
     padding: 10px 0;
   }
 
+  #bio {
+    padding: 20px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-align: center; 
+    height: max-content;
+    line-height: 50px;
+    margin: auto;
+  }
+  
+  #smoothie {
+    width:100%;
+    object-fit: cover;
+  }
+
+
+
 @media (max-width: 650px) and (min-width: 200px)  {
     #slogan {
       font-size: 15px;
     }
     
+    #bio {
+        padding: 10px 15px;
+      }
+    
+      #bio p {
+        padding: 0px 7px;
+        font-size: var(--phone-text);
+        line-height: normal;
+      }
+
   }
 
 
