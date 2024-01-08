@@ -1,4 +1,28 @@
-/* Google fonts import */
+:root {
+    --background-color1: rgb(49, 49, 49);
+    --background-color2: rgb(234, 179, 96);
+    --background-color3: rgb(202, 188, 168);
+    --background-color4:rgb(138,148,201);
+    --button-color1: rgb(218, 141, 0);
+    --button-color2: rgb(234, 179, 96);;
+    --bar-width: 50px;
+    --bar-height: 8px;
+    --hamburger-gap: 6px;
+    --foreground: #333;
+    --background: white;
+    --hamburger-margin: 8px;
+    --animation-timing: 200ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+    --phone-text: 10px;
+    --phone-texth1: 30px;
+    --phone-texth2: 25px;
+    --phone-texth3: 20px;
+    --phone-texth4: 15px;
+    --e-book-color:rgb(199,199,199);
+    --backdrop-color: rgb(218, 218, 218);
+  }
+
+  /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* wildcard selector*/
@@ -79,6 +103,15 @@ main {
     flex: 1 0 auto;
 }
 
+
+.punchline {
+    background-color: var(--background-color2);
+    font-style: bold;
+    transition-timing-function: ease-in;
+    transition-duration: 700ms;
+    text-align: center;
+    padding: 10px 0;
+  }
 
 @media (max-width: 650px) and (min-width: 200px)  {
     #slogan {
