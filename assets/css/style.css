@@ -300,7 +300,9 @@ main {
   }
   /* ----------------------------MOBILE HAMBURER MENU END---------------------------- */
 
-  @media (max-width: 926px)  {
+  /* ------------------------------------Start of Media Queries----------------------------------------------- */
+
+@media (max-width: 926px)  {
     header {
       padding: 0;
     }
@@ -312,7 +314,24 @@ main {
     p{
       font-size: var(--phone-text);
     }
-  }  
+  
+    h1 {
+      font-size: var(--phone-texth1);
+    }
+  
+    h2 {
+      font-size: var(--phone-texth2);
+    }
+    
+    h3 {
+      font-size: var(--phone-texth3);
+    }
+  
+   h4 {
+      font-size: var(--phone-texth4);
+    }
+
+  }
 
 
 
