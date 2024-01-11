@@ -331,6 +331,12 @@ main {
       font-size: var(--phone-texth4);
     }
 
+    #bio p {
+        padding: 0px 7px;
+        font-size: var(--phone-text);
+        line-height: 20px;
+      }
+
   }
 
 
