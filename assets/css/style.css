@@ -360,7 +360,7 @@ main {
 
   /* ------------------------------------Start of Media Queries----------------------------------------------- */
 
-@media (max-width: 992px) and (min-width: 768px)  {
+@media screen and (min-width: 768px)  {
     header {
       padding: 0 0 0 1rem;
     }
@@ -432,6 +432,16 @@ main {
       }
 
   }
+
+  @media screen and (min-width: 992px)  {
+    #menu a:hover {
+      border-bottom: 1px solid white;
+      color: white;
+    }
+
+  }
+
+
 
 
 
