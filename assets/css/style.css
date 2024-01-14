@@ -40,12 +40,21 @@
   }
   
 
-header {
+/*header {
     --padding: 10px 0;
     background: var(--background-color1);
     position: fixed;
     width: 100%;
     z-index: 1;
+}*/
+
+header {
+  background: var(--background-color1);
+  position: fixed;
+  padding: 0 1rem;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px;
 }
 
 .topnav {
