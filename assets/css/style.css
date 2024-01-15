@@ -163,7 +163,7 @@ body {
 main {
     /* Make main element take up surplus space*/
     flex: 1 0 auto;
-    margin-top: 42px; 
+    margin-top: 40px; 
 }
 
 .container {
