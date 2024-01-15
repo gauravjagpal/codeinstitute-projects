@@ -14,6 +14,7 @@
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
     --phone-text: 8px;
+    --tablet-p: 10px;
     --phone-texth1: 30px;
     --phone-texth2: 25px;
     --phone-texth3: 20px;
@@ -172,9 +173,14 @@ main {
   }
 
 /* Styling for the first paragraph*/
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
 
   .intro {
     background-image: url(../images/stone-background.jpeg);
+    padding-left: 10px;
   }
 
   #bio {
@@ -421,7 +427,7 @@ main {
     }*/
     
     p{
-      font-size: var(--phone-text);
+      font-size: var(--tablet-p);
     }
   
     h1 {
@@ -442,7 +448,6 @@ main {
 
     #bio p {
         padding: 0px 7px;
-        font-size: var(--phone-text);
         line-height: 20px;
       }
 
