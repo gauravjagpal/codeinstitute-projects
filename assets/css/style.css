@@ -105,6 +105,11 @@ nav {
   display: none;
 }
 
+.fa {
+  color: white;
+  font-size: var(--phone-texth2);
+}
+
 /* Javascript header CSS 
 .topnav {
     display: none;
