@@ -244,11 +244,6 @@ main {
     border-radius: 20px;
   }
 
-  #fruit {
-    overflow: hidden;
-    padding: 0;
-  }
-
   .footer {
     background-color: var(--background-color1);
     color: white;
@@ -298,8 +293,11 @@ main {
         padding: 10px 0px 10px 10px;
       }
     
-    #bio p {
+    p {
       font-size: var(--phone-text);
+    }  
+
+    #bio p {
       line-height: normal;
       margin-bottom: 0.5rem;
     }
