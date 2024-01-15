@@ -218,6 +218,12 @@ main {
     display: inline;
   }
 
+  #steps img {
+    object-fit: contain;
+    width: 113px;
+    height: 113px;
+  }
+
   .coaching {
     background-color: var(--button-color1);
     border: none;
