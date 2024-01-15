@@ -13,7 +13,7 @@
     --hamburger-margin: 8px;
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
-    --phone-text: 10px;
+    --phone-text: 8px;
     --phone-texth1: 30px;
     --phone-texth2: 25px;
     --phone-texth3: 20px;
@@ -289,15 +289,30 @@ main {
     }
     
     #bio {
-        padding: 10px 15px;
+        padding: 10px 0px 10px 10px;
       }
     
-      #bio p {
-        padding: 0px 7px;
-        font-size: var(--phone-text);
-        line-height: normal;
-      }
+    #bio p {
+      font-size: var(--phone-text);
+      line-height: normal;
+      margin-bottom: 0.5rem;
+    }
 
+    .footer {
+      padding-top: 30px;
+    }
+
+    .footer p {
+      font-size: 0.7rem;
+    }
+
+    .footer h5 {
+      font-size: 0.9rem;
+    }
+
+    .form-control, .btn {
+      font-size: 0.5rem;
+    }
   }
 
 
