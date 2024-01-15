@@ -15,10 +15,10 @@
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
     --phone-text: 8px;
     --tablet-p: 10px;
-    --phone-texth1: 30px;
-    --phone-texth2: 25px;
-    --phone-texth3: 20px;
-    --phone-texth4: 15px;
+    --phone-texth1: 25px;
+    --phone-texth2: 20px;
+    --phone-texth3: 15px;
+    --phone-texth4: 10px;
     --e-book-color:rgb(199,199,199);
     --backdrop-color: rgb(218, 218, 218);
   }
@@ -205,18 +205,6 @@ main {
     text-align: center;
     padding: 50px;
   }
-
-  .step1div {
-    width: 113px;
-    height: 113px;
-    margin: auto;
-  }
-  
-  .step1img {
-    position: relative;
-    left: -36px;
-    top: -36px;
-  }
   
   .process {
     position: relative;
@@ -297,9 +285,30 @@ main {
       font-size: var(--phone-text);
     }  
 
+    h1 {
+      font-size: var(--phone-texth1);
+    }
+
+    h2 {
+      font-size: var(--phone-texth2);
+    }
+
+    h3 {
+      font-size: var(--phone-texth3);
+    }
+
+    h4 {
+      font-size: var(--phone-texth4);
+    }
+
     #bio p {
       line-height: normal;
       margin-bottom: 0.5rem;
+    }
+
+    #steps img {
+      max-width: 75%;
+      max-height: 75%;
     }
 
     .footer {
