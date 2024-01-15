@@ -228,7 +228,6 @@ main {
     background-color: var(--button-color1);
     border: none;
     color: white;
-    padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -236,6 +235,10 @@ main {
     cursor: pointer;
     padding: 0.75rem 5rem;
     border-radius: 20px;
+  }
+
+  #coaching {
+    margin: 50px 0 100px 0;
   }
 
   .footer {
@@ -317,6 +320,10 @@ main {
       max-height: 75%;
     }
 
+    .process {
+      margin-top: 0.5rem;
+    }
+
     .footer {
       padding-top: 30px;
     }
@@ -327,6 +334,20 @@ main {
 
     .footer h5 {
       font-size: 0.9rem;
+    }
+
+    #coaching {
+      margin: 10px 0 20px 0;
+    }
+
+
+    .coaching, .download {
+      padding: 0.25rem 1rem;
+      font-size: var(--phone-texth4);
+    }
+
+    .e-book {
+      padding: 50px 20px;
     }
 
     .form-control, .btn {
