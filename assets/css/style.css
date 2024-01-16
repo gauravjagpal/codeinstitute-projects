@@ -198,12 +198,12 @@ main {
 #bio {
   padding: 20px 50px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
   text-align: center; 
   height: max-content;
   line-height: 50px;
   margin: auto;
 }
+
 
 #smoothie, #vagus-nerve {
   width:100%;
@@ -228,29 +228,13 @@ main {
     justify-content: center;
     text-align: center;
     display: inline;
+    border-bottom: 1px solid var(--background-color1);
   }
 
   #steps img {
     object-fit: contain;
     width: 113px;
     height: 113px;
-  }
-
-  .coaching {
-    background-color: var(--button-color1);
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    padding: 0.75rem 5rem;
-    border-radius: 20px;
-  }
-
-  #coaching {
-    margin: 50px 0 100px 0;
   }
 
   .footer {
@@ -411,6 +395,10 @@ main {
       #my-struggles p {
         font-size: 14px
       }
+
+      #steps {
+        border-bottom: none;
+      }
   }
 
   @media screen and (min-width: 992px)  {
@@ -460,6 +448,10 @@ h6{font-size:18px;}
 
     h4 {
       font-size: var(--phone-texth4);
+    }
+
+    #bio h2 {
+      font-size: 10px;
     }
 
     #bio p {
