@@ -648,7 +648,7 @@ main {
   /* Style the active link (or home/logo) */
   .active {
     background-color: var(--background-color1);
-    color: white;
+    color: yellow;
   }
   
   #myLinks a {
