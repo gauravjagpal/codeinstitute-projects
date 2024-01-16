@@ -296,9 +296,8 @@ main {
 
 
   /* About.html css*/
-
   #about-me, #my-struggles {
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: left; 
@@ -500,18 +499,27 @@ main {
       width: 50%;
     }
 
-    #about-me h2,
-    #my-struggles h2 {
-      padding: 10px 10px 0px 7px;
-      font-size: 8px;
+    #about-me p, #about-me h2,
+    #my-struggles p, #my-struggles h2 {
+      font-size: 7px;
       line-height: normal;
     }
 
-    #about-me p,
-    #my-struggles p {
+
+    #about-me h2 {
+      padding: 10px 10px 0px 7px;
+    }
+
+    #about-me p {
       padding: 0px 20px 0px 7px;
-      font-size: 8px;
-      line-height: normal;
+    }
+
+    #my-struggles h2 {
+      padding: 10px 10px 0px 20px;    
+    }
+
+    #my-struggles p {
+      padding: 0px 20px 0px 20px;    
     }
 
     #about-me > img,
