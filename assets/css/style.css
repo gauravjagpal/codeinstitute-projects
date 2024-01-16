@@ -84,6 +84,7 @@ header a {
 
 .active {
   border-bottom: 1px solid;
+  font-weight: bold;
 }
 
 /*Navbar styles with dropdown toggle*/
@@ -659,11 +660,7 @@ h6{font-size:18px;}
   }
   
   /* Style the active link (or home/logo) */
-  .active {
-    background-color: var(--background-color1);
-    color: yellow;
-  }
-  
+
   #myLinks a {
     font-size:x-small;
     line-height: 0;
