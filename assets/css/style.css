@@ -187,25 +187,29 @@ main {
   margin:0;
 }
 
-  .intro {
-    background-image: url(../images/stone-background.jpeg);
-    padding-left: 10px;
-  }
+.row {
+  background-color: var(--background-color3);
+}
 
-  #bio {
-    padding: 20px 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    text-align: center; 
-    height: max-content;
-    line-height: 50px;
-    margin: auto;
-  }
-  
-  #smoothie, #vagus-nerve {
-    width:100%;
-    object-fit: cover;
-  }
+.intro {
+  background-image: url(../images/stone-background.jpeg);
+  padding-left: 10px;
+}
+
+#bio {
+  padding: 20px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: center; 
+  height: max-content;
+  line-height: 50px;
+  margin: auto;
+}
+
+#smoothie, #vagus-nerve {
+  width:100%;
+  object-fit: cover;
+}
 
 /* Beginning styling for the three steps section*/
 
@@ -290,6 +294,28 @@ main {
     padding: 0px !important;
   }
 
+
+  /* About.html css*/
+
+  #about-me {
+    padding: 0px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left; 
+    height: max-content;
+    margin: auto;
+    width: 100%;    
+  }
+
+  #about-me h2, #about-me p {
+    padding: 50px 50px 0;
+  }
+
+  div #about-me,  div #my-struggles {
+    padding: 0;
+    margin: auto;
+  }
+
 @media (max-width: 767px) and (min-width: 200px)  {
     #slogan {
       font-size: 12px;
@@ -362,6 +388,28 @@ main {
     .form-control, .btn {
       font-size: 0.5rem;
     }
+
+    /* About.html css*/
+    #about-me {
+      width: 50%;
+    }
+
+    #about-me h2 {
+      padding: 10px 10px 0px 7px;
+      font-size: 8px;
+      line-height: normal;
+    }
+
+    #about-me p {
+      padding: 0px 20px 0px 7px;
+      font-size: 8px;
+      line-height: normal;
+    }
+
+    #about-me > img {
+      width: 100%;
+    }
+
   }
 
 
