@@ -356,6 +356,10 @@ main {
       padding-top: 50px;
     }*/
     
+    .punchline {
+      padding-top: 20px;
+    }
+
     p{
       font-size: var(--tablet-p);
     }
