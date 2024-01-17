@@ -297,7 +297,7 @@ main {
     padding: 50px 50px 0;
   }
 
-  div #about-me >img,  div #my-struggles > img{
+  div #about-me >img,  div #my-struggles > img, div #tvns > img{
     padding: 0;
     margin: auto;
     max-width: 100%;
@@ -309,6 +309,10 @@ main {
   }
 
   /*tvns css*/
+  #tvns {
+    padding-left: 0;
+  }
+  
   #tvns-video {
     padding: 60px 0;
     display: flex;
@@ -318,6 +322,11 @@ main {
   #tvns-video > iframe {
     max-width: 90vw;
     width: 70%;
+  }
+
+  #tvns h2,
+  #tvns p {
+    margin-right: 10px;
   }
 
   div:has(#tvns-video) {
@@ -394,9 +403,11 @@ main {
       font-size: var(--phone-texth3);
     }
   
-   h4 {
+    h4 {
       font-size: var(--phone-texth4);
     }
+
+    
 
     #bio p {
         padding: 0px 7px;
@@ -415,7 +426,8 @@ main {
       }
 
       #about-me p,
-      #my-struggles p {
+      #my-struggles p,
+      #tvns p, #tvns h4 {
         font-size: 14px
       }
 
@@ -560,6 +572,13 @@ h6{font-size:18px;}
     }
   
 
+  }
+
+  @media (max-width: 300px) and (min-width: 200px) {
+    #tvns p, #tvns h4 {
+      font-size: 7px;
+      line-height: normal;
+    }
   }
 
 
