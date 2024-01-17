@@ -27,6 +27,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* wildcard selector*/
+html {
+  margin:auto
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -309,6 +313,10 @@ main {
   }
 
   /*tvns css*/
+  .row:has(#tvns-image) {
+
+  }
+
   #tvns {
     padding-left: 0;
     margin: auto;
@@ -325,15 +333,35 @@ main {
     width: 70%;
   }
 
-  #tvns h2,
+  #tvns h4,
   #tvns p {
     margin-right: 10px;
   }
 
   .div-seperator{
     border-bottom: 2px solid var(--background-color3);
-    margin: 60px auto;
+    margin: 40px auto;
     width: 80%;
+  }
+  
+  #tvns1 {
+    padding: 0 20px 0 10px;
+    margin: auto;
+  }
+
+  #tvns2 {
+    padding: 0 0 0 20px;
+    margin: auto;
+  }
+
+  #tvns-image2 {
+    padding: 0 20px 20px 10px;
+    margin: auto;
+  }
+
+  #tvns-image1 {
+    padding: 0 0 20px 20px;
+    margin: auto;
   }
   
   /* ------------------------------------Start of Media Queries----------------------------------------------- */
@@ -409,33 +437,37 @@ main {
       font-size: var(--phone-texth4);
     }
 
-    
+  #bio p {
+      padding: 0px 7px;
+      line-height: 20px;
+    }
 
-    #bio p {
-        padding: 0px 7px;
-        line-height: 20px;
-      }
+    /*about.html css*/
+    #about-me h2, #about-me p,
+    #my-struggles h2, #my-struggles p {
+      padding: 20px 20px;
+    }
 
-      /*about.html css*/
-      #about-me h2, #about-me p,
-      #my-struggles h2, #my-struggles p {
-        padding: 20px 20px;
-      }
+    #about-me > h2,
+    #my-struggles > h2 {
+      font-size: 20px;
+    }
 
-      #about-me > h2,
-      #my-struggles > h2 {
-        font-size: 20px;
-      }
+    #about-me p,
+    #my-struggles p,
+    #tvns p, #tvns h4 {
+      font-size: 14px
+    }
 
-      #about-me p,
-      #my-struggles p,
-      #tvns p, #tvns h4 {
-        font-size: 14px
-      }
+    #steps {
+      border-bottom: none;
+    }
 
-      #steps {
-        border-bottom: none;
-      }
+    #tvns1 p, #tvns1 h4,
+    #tvns2 p, #tvns2 h4 {
+      font-size: 15px;
+    }
+
   }
 
   @media screen and (min-width: 992px)  {
@@ -583,9 +615,14 @@ h6{font-size:18px;}
     }
 
     #about-me p, #about-me h2,
-    #my-struggles p, #my-struggles h2 {
+    #my-struggles p, #my-struggles h2,
+    #tvns1 p, #tvns2 p {
       font-size: 6px;
       line-height: normal;
+    }
+
+    .div-seperator{
+      margin: 30px auto;
     }
   }
 
