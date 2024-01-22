@@ -14,7 +14,7 @@
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
     --phone-text: 8px;
-    --tablet-p: 10px;
+    --tablet-p: 13px;
     --phone-texth1: 25px;
     --phone-texth2: 20px;
     --phone-texth3: 15px;
@@ -417,7 +417,7 @@ main {
       padding-top: 20px;
     }
 
-    p{
+    p, #tvns h4{
       font-size: var(--tablet-p);
     }
   
@@ -451,12 +451,6 @@ main {
     #about-me > h2,
     #my-struggles > h2 {
       font-size: 20px;
-    }
-
-    #about-me p,
-    #my-struggles p,
-    #tvns p, #tvns h4 {
-      font-size: 14px
     }
 
     #steps {
