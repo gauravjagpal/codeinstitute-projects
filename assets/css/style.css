@@ -365,6 +365,9 @@ main {
     margin: auto;
   }
   
+  iframe {
+    border: 0;
+  }
   /* ------------------------------------Start of Media Queries----------------------------------------------- */
 
 @media screen and (min-width: 768px)  {
