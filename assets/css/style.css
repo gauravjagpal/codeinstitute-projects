@@ -230,7 +230,7 @@ main {
     z-index: 1;
   }
   
-  #steps {
+  .steps {
     padding: 10px 10px;
     justify-content: center;
     text-align: center;
@@ -238,7 +238,7 @@ main {
     border-bottom: 1px solid var(--background-color1);
   }
 
-  #steps img {
+  .steps img {
     object-fit: contain;
     width: 113px;
     height: 113px;
@@ -454,7 +454,7 @@ main {
       font-size: 20px;
     }
 
-    #steps {
+    .steps {
       border-bottom: none;
     }
 
@@ -523,7 +523,7 @@ h6{font-size:18px;}
       margin-bottom: 0.5rem;
     }
 
-    #steps img {
+    .steps img {
       max-width: 75%;
       max-height: 75%;
     }
