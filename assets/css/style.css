@@ -593,7 +593,7 @@ h6{font-size:18px;}
 
     #about-me > img,
     #my-struggles > img {
-      width: 100%;
+      width: -webkit-fill-available;
     }
 
     #tvns-video > iframe {
