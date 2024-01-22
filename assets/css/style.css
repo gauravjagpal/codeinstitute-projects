@@ -28,7 +28,8 @@
 
 /* wildcard selector*/
 html {
-  margin:auto
+  margin:auto;
+  background-color: var(--background-color3);
 }
 
 * {
