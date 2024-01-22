@@ -287,7 +287,7 @@ main {
 
 
   /* About.html css*/
-  #about-me, #my-struggles {
+  .about-me, .my-struggles {
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -297,19 +297,19 @@ main {
     width: 100%;  
   }
 
-  #about-me h2, #about-me p,
-  #my-struggles h2, #my-struggles p {
+  .about-me h2, .about-me p,
+  .my-struggles h2, .my-struggles p {
     padding: 50px 50px 0;
   }
 
-  div #about-me >img,  div #my-struggles > img, div #tvns > img{
+  div .about-me >img,  div .my-struggles > img, div #tvns > img{
     padding: 0;
     margin: auto;
     max-width: 100%;
   }
 
-  .row:has(#about-me),
-  .row:has(#my-struggles) {
+  .row:has(.about-me),
+  .row:has(.my-struggles) {
     background-color: var(--background-color3);
   }
 
@@ -444,13 +444,13 @@ main {
     }
 
     /*about.html css*/
-    #about-me h2, #about-me p,
-    #my-struggles h2, #my-struggles p {
+    .about-me h2, .about-me p,
+    .my-struggles h2, .my-struggles p {
       padding: 20px 20px;
     }
 
-    #about-me > h2,
-    #my-struggles > h2 {
+    .about-me > h2,
+    .my-struggles > h2 {
       font-size: 20px;
     }
 
@@ -563,36 +563,36 @@ h6{font-size:18px;}
     }
 
     /* About.html css*/
-    #about-me,
-    #my-struggles {
+    .about-me,
+    .my-struggles {
       width: 50%;
     }
 
-    #about-me p, #about-me h2,
-    #my-struggles p, #my-struggles h2 {
+    .about-me p, .about-me h2,
+    .my-struggles p, .my-struggles h2 {
       font-size: 9px;
       line-height: normal;
     }
 
 
-    #about-me h2 {
+    .about-me h2 {
       padding: 10px 10px 0px 7px;
     }
 
-    #about-me p {
+    .about-me p {
       padding: 0px 20px 0px 7px;
     }
 
-    #my-struggles h2 {
+    .my-struggles h2 {
       padding: 10px 10px 0px 20px;    
     }
 
-    #my-struggles p {
+    .my-struggles p {
       padding: 0px 20px 0px 20px;    
     }
 
-    #about-me > img,
-    #my-struggles > img {
+    .about-me > img,
+    .my-struggles > img {
       width: -webkit-fill-available;
     }
 
@@ -609,8 +609,8 @@ h6{font-size:18px;}
       line-height: normal;
     }
 
-    #about-me p, #about-me h2,
-    #my-struggles p, #my-struggles h2,
+    .about-me p, .about-me h2,
+    .my-struggles p, .my-struggles h2,
     #tvns1 p, #tvns2 p {
       font-size: 6px;
       line-height: normal;
