@@ -1,3 +1,43 @@
+# MICROBIOME MADNESS ![Reference Image](/assets/favicon/microbiome-madness-logo-32x32.png)
+
+Visit the deployed site: <a href="https://gauravjagpal.github.io/codeinstitute-projects/">Microbiome Madness</a>
+
+## Features
+This project contains 3 pages:
+- A home page explaining what the project is about
+- An about me page giving information on the author
+- A therapy page give information on one of the therapy options, also includes a video explaing the therapy
+
+## User Experience (UX)
+
+### User Stories
+
+#### Visitor Goals
+- Intro to who the author is and how they became 
+- Find out more about how they can help themselves recover
+
+## Design
+### Colour Scheme
+I decided to use neutral colours to keep the site an easy read.
+
+#### Background Colours:
+- rgb(49, 49, 49) (header and footer background)
+- rgb(234, 179, 96) (background of slogan bar at top of pages)
+- rgb(202, 188, 168) (text background)
+
+#### Button Colours:
+- rgb(218, 141, 0)
+
+![Alt text](home-screenshot-desktop.png)
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,
