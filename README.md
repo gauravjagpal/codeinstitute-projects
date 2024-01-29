@@ -3,7 +3,18 @@ This site is designed to give readers with Chron's disease information on differ
 ### Technologies used
 HTML5, CSS
 
-********************ADD CODE STRUCTURE*************************************
+## CODE STRUCTURE
+### HTML files
+I have stored all of my HTML5 files at the directory level
+
+### Assets folder
+All files complimenting my HTML have been included in the assets folder. Broken down by:
+- css
+- favicons
+- images
+
+### README file
+The README file is also at directory level and the assosciated files are stored in a "media" folder
 
 ## User Experience (UX)
 
@@ -67,12 +78,25 @@ A header and either the navigation options at the top or the hamburger menu (wit
 ![Vagus Nerve Therapy](media/vagus-nerve.png)
 
 ### Features left to implement
-- More therapy suggestiong
+- More therapy suggestions
 - A blog
 - Contact page
 - Coaching page
 
 ## Testing
+### Validator testing
+#### W3C validator
+The html files have been run through the <a href="https://validator.w3.org/#validate_by_input"> W3C </a>validator and the below are the current status:
+- [index.html](index.html) - pass - No errors or warnings
+- [about.html](about.html) - pass - No errors or warnings
+- [vagus-nerve.html](vagus-nerve.html) - pass - No errors or warnings
+
+#### Jigsaw validator
+The CSS files have been run through the <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">Jigsaw </a>validator and the below are the current status:
+- style.css - pass - No error found
+
+### Unfixed Bugs
+As of yet, I have not found any bugs which still need fixing
 
 ## Deployment
 Visit the deployed site: <a href="https://gauravjagpal.github.io/codeinstitute-projects/">Microbiome Madness</a>
