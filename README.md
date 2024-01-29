@@ -45,14 +45,12 @@ A header and either the navigation options at the top or the hamburger menu (wit
 
 - The landing page is designed to be an easy read. A brief introduction and a soft picture.
 
-![Landing Page](media/home-screenshot-desktop.png)
-
+![Landing Page](media/home-screenshot-desktop.png)!
 - Three steps section
     -   This section gives more information into the steps taken by the author 
     -   Designed in three steps to break up the information and make it easy to digest
 
 ![Three Steps](media/threesteps.png)
-
 - Footer
     -   The footer contains a link to the book the author has written as well as a subscription section to the the newsletter
 
