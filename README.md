@@ -96,7 +96,12 @@ The CSS files have been run through the <a href="https://jigsaw.w3.org/css-valid
 - style.css - pass - No error found
 
 ### Unfixed Bugs
-As of yet, I have not found any bugs which still need fixing
+As of yet, I have not found any bugs which still need fixing.
 
 ## Deployment
 Visit the deployed site: <a href="https://gauravjagpal.github.io/codeinstitute-projects/">Microbiome Madness</a>
+
+## Credits
+- Sources I used to help me build this site include:
+    - <a href="https://getbootstrap.com/">Bootstrap </a> for styling
+    - <a href="https://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&adsVersion=white&orig_msid=7256104d-cd5f-41f7-a005-53b7c74e6f1d"> Wix</a> for images
