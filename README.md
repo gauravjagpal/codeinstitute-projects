@@ -1,5 +1,12 @@
 # MICROBIOME MADNESS ![Reference Image](/assets/favicon/microbiome-madness-logo-32x32.png)
-This site is designed to give readers with Chron's disease information on different therapies
+Welcome to Microbiome Madness!
+
+This site is designed to give individuals with Chron's disease a comprehensive resource on various therapeutic options.
+
+Within this site, you will find a wealth of information spanning diverse therapeutic approaches aimed at addressing the unique challenges associated with Crohn's disease.
+
+We understand that navigating the landscape of Crohn's disease management can be complex, and our aim is to simplify this process by offering clear, concise, and accessible information.
+
 ### Technologies used
 HTML5, CSS
 
@@ -94,6 +101,33 @@ The html files have been run through the <a href="https://validator.w3.org/#vali
 #### Jigsaw validator
 The CSS files have been run through the <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">Jigsaw </a>validator and the below are the current status:
 - style.css - pass - No error found
+
+### Lighthouse testing
+ - Index page
+    - Desktop Testing:
+    ![Index Desktop Testing](media/index-desktop-testing.png)
+    
+    - Mobile Testing:
+    ![Index Mobile Testing](media/index-mobile-testing.png)
+
+- About page
+    - Desktop Testing:
+    ![About page Desktop Testing](media/about-desktop-testing.png)
+    - Mobile Testing:
+    ![About page Mobile Testing](media/about-mobile-testing.png)
+
+- Vagus Nerve
+    - Desktop Testing:
+    ![Vagus Nerve Desktop Testing](media/vagus-nerve-desktop-testing.png)
+    - Mobile Testing:
+    ![Vagus Nerve Mobile Testing](media/vagus-nerve-mobile-testing.png)
+
+- Subscription Page
+    - Desktop Testing:
+    ![Subscription Desktop Testing](media/subscription-desktop-testing.png)
+    - Mobile Testing:
+    ![Subscription Mobile Testing](media/subscription-nerve-mobile-testing.png)
+
 
 ### Unfixed Bugs
 As of yet, I have not found any bugs which still need fixing.
