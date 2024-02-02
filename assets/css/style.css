@@ -312,10 +312,6 @@ main {
   }
 
   /*tvns css*/
-  .row:has(#tvns-image) {
-
-  }
-
   #tvns {
     padding-left: 0;
     margin: auto;
