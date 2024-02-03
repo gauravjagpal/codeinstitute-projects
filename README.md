@@ -1,5 +1,5 @@
 # MICROBIOME MADNESS ![Reference Image](/assets/favicon/microbiome-madness-logo-32x32.png)
-Welcome to Microbiome Madness!
+Welcome to [Microbiome Madness!](https://gauravjagpal.github.io/codeinstitute-projects/)!
 
 This site is designed to give individuals with Chron's disease a comprehensive resource on various therapeutic options.
 
@@ -10,7 +10,47 @@ We understand that navigating the landscape of Crohn's disease management can be
 ### Technologies used
 HTML5, CSS
 
-## CODE STRUCTURE
+## CONTENTS
+
+* [Code Structure](#code-structure)
+    - HTML Files
+    - Assets Folder
+    - README File
+    - Media Folder
+
+* [User Experience (UX)](#user-experience-ux)
+    - User Stories
+        - Visitor Goals
+
+* [Design](#design)
+    - Colour Scheme
+    - Background Colours
+    - Button Colours
+
+* [Features](#features)
+    - Favicon
+    - Navbar
+    - Landing Page
+    - Features left to implement
+
+* [Testing](#testing)
+    - Validator Testing
+        - W3C validator
+        - Jigsaw Validator
+    
+    - Lighthouse Testing
+        - Index page
+        - About page
+        - Vagus Nerve page
+        - Submission Page
+
+    - Unfixed Bugs
+
+* [Deployment](#deployment)
+
+* [Credits](#credits)
+
+## Code Structure
 ### HTML files
 I have stored all of my HTML5 files at the directory level
 
@@ -22,6 +62,9 @@ All files complimenting my HTML have been included in the assets folder. Broken 
 
 ### README file
 The README file is also at directory level and the assosciated files are stored in a "media" folder
+
+### Media Folder
+The Media folder contains all of the images used in the README file
 
 ## User Experience (UX)
 
@@ -127,7 +170,7 @@ The CSS files have been run through the <a href="https://jigsaw.w3.org/css-valid
     - Mobile Testing:
     ![About page Mobile Testing](media/about-mobile-testing.png)
 
-- Vagus Nerve
+- Vagus Nerve page
     - Desktop Testing:
     ![Vagus Nerve Desktop Testing](media/vagus-nerve-desktop-testing.png)
     - Mobile Testing:
