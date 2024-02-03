@@ -27,6 +27,11 @@ HTML5, CSS
     - Background Colours
     - Button Colours
 
+* [Wireframes](#wireframes)
+    - Home page
+    - About me page
+    - Vagus Nerve page
+
 * [Features](#features)
     - Favicon
     - Navbar
@@ -182,7 +187,7 @@ The CSS files have been run through the <a href="https://jigsaw.w3.org/css-valid
     - Mobile Testing:
     ![Subscription Mobile Testing](media/subscription-nerve-mobile-testing.png)
 
-## Bugs
+### Bugs
 - Images not loading on deployed site. I realised I was using absolute paths for images and changed this to relative paths.
 
 ### Unfixed Bugs
