@@ -43,6 +43,17 @@ I decided to use neutral colours to keep the site an easy read.
 #### Button Colours:
 - rgb(218, 141, 0)
 
+## Wireframes
+
+### Home page
+![Home Page Wireframe](media/index-wireframe.png)
+
+### About me page 
+![About Me page Wireframe](media/about-wireframe.png)
+
+### Vagus Nerve
+![Vagus Nerve page Wireframe](media/vagus-nerve-wireframe.png)
+
 ## Features
 This website has 3 pages, a home page, a page with details of the author and a page with information about a therapy option
 
@@ -128,12 +139,49 @@ The CSS files have been run through the <a href="https://jigsaw.w3.org/css-valid
     - Mobile Testing:
     ![Subscription Mobile Testing](media/subscription-nerve-mobile-testing.png)
 
+## Bugs
+- Images not loading on deployed site. I realised I was using absolute paths for images and changed this to relative paths.
 
 ### Unfixed Bugs
-As of yet, I have not found any bugs which still need fixing.
+As of yet, I have not found any further bugs which still need fixing.
 
-## Deployment
-Visit the deployed site: <a href="https://gauravjagpal.github.io/codeinstitute-projects/">Microbiome Madness</a>
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages - [Microbiome Madness](https://gauravjagpal.github.io/codeinstitute-projects/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to my repository for the project, [gauravjagpal/codeinsitute-projects](https://github.com/gauravjagpal/codeinstitute-projects).
+3. Click the settings button in the banner near the top of the screen.
+4. On the menu on the left hand side, select "Pages".
+5. From the Branch dropdown select main branch and press save.
+6. The site has now been deployed (this may take a few minutes to action).
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Login (or signup) to Github.
+2. Go to my repository for the project, [gauravjagpal/codeinsitute-projects](https://github.com/gauravjagpal/codeinstitute-projects).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Login (or signup) to Github.
+2. Go to my repository for the project, [gauravjagpal/codeinsitute-projects](https://github.com/gauravjagpal/codeinstitute-projects).
+3. Click on the Green code button, choose whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Launch the terminal within your code editor and set the current working directory to the desired location for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+
+
 
 ## Credits
 - Sources I used to help me build this site include:
