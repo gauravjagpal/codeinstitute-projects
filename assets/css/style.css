@@ -42,15 +42,6 @@ html {
 #top-padding {
     padding-top: 56px;
   }
-  
-
-/*header {
-    --padding: 10px 0;
-    background: var(--background-color1);
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}*/
 
 header {
   background: var(--background-color1);
@@ -114,50 +105,6 @@ nav {
   color: white;
   font-size: var(--phone-texth2);
 }
-
-/* Javascript header CSS 
-.topnav {
-    display: none;
-  }
-
-.navbar {
-    display: flex;
-    top: 0;
-    right: 0;
-    color: white;
-    justify-content: right
-}
-
-.navbar a{
-    list-style: none;
-    padding: 0 10px;
-    margin: 0;  
-  }
-  
-  .navlist {
-    color:white;
-    text-decoration: none;
-    width: 100%;
-    font-weight: bold;
-    font-size: 0.8rem;
-  }
-  
-  .active {
-    border-bottom: 1px solid white;
-  }
-
-  #home {
-    color:yellow;
-    text-decoration: none;
-    width: 100%;
-  }
-  
-  .navbar a:hover {
-      background: rgb(29, 29, 29);
-      font-weight: bold;
-      cursor:pointer
-  }
-*/
 
 body {
     display: flex;
@@ -411,10 +358,6 @@ main {
       flex: 1 0 auto;
       margin-top: 45px;
     }
-    /*
-    #top-padding {
-      padding-top: 50px;
-    }*/
     
     .punchline {
       padding-top: 20px;
@@ -683,23 +626,6 @@ main {
           white-space: nowrap;
           -webkit-overflow-scrolling: touch;
         }
-  
-        /* .btn-bd-primary {
-          --bd-violet-bg: #712cf9;
-          --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-  
-          --bs-btn-font-weight: 600;
-          --bs-btn-color: var(--bs-white);
-          --bs-btn-bg: var(--bd-violet-bg);
-          --bs-btn-border-color: var(--bd-violet-bg);
-          --bs-btn-hover-color: var(--bs-white);
-          --bs-btn-hover-bg: #6528e0;
-          --bs-btn-hover-border-color: #6528e0;
-          --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-          --bs-btn-active-color: var(--bs-btn-hover-color);
-          --bs-btn-active-bg: #5a23c8;
-          --bs-btn-active-border-color: #5a23c8;
-        } */
         .bd-mode-toggle {
           z-index: 1500;
         }
